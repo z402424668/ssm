@@ -11,6 +11,8 @@ public class TestController {
 
     @PutMapping("/update")
     public String update(String name,Integer age){
+        System.out.println("hahaha");
+        System.out.println("哈哈哈");
         System.out.println("heiheihei");
         System.out.println("嘿嘿嘿");
         return null;
